@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mali&family=Roboto:wght@500&display=swap');
+
+.logo {
+  float: left;
+}
+
+.socMedia {
+  float: right;
+  position: relative;
+  bottom: 3em;
+}
+
+.chocoPizza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.listPictContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.listPict {
+  position: absolute;
+  z-index: -1;
+  padding: 1em;
+  width: 50%;
+  margin-left: 23%;
+}
+
+.para {
+  line-height: 1.5;
+  text-indent: 2em;
+  padding: 1em;
+  width: 50%;
+ margin-left: 22em;
+}
+
+.dotsDivTop {
+background-image: url(../img/hr-img.png);
+width: 100%;
+height: 10px;
+position: relative;
+top: 50px;
+}
+
+.dotsDivBot {
+  background-image: url(../img/hr-img.png);
+  width: 100%;
+  height: 10px;
+  position: relative;
+  bottom: 50px;
+  }
+
+
+  .header1 {
+    font-family: 'Arizonia', cursive;
+    font-size: 25pt;
+  }
+
+  .header2 {
+    font-size: 6pt;
+    color: gray;
+  }
+
+main {
+  margin-top: 60px;
+margin-bottom: 60px;
+}
+
+.listDiv {
+  display: flex;
+  margin-left: 25%;
+  font-family: 'Mali', cursive;
+  font-size: 16pt;
+  padding: 2.5em;
+}
+
+.chocText1 {
+position: flex;
+margin-left: 25%;
+font-family: 'Bebas Neue', cursive;
+font-size: 20pt;
+}
+
+.chocText2 {
+  position: flex;
+  margin-left: 25%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 7pt;
+  color: lightslategray
+}
+
+footer {
+  width: 50%;
+  margin-left: 23%;
+  padding-top: 2em;
+  margin-bottom: 10em;
+}
+
+header {
+  width: 50%;
+  margin-left: 23%;
+  padding: 2em;
+}
+
+.print {
+  display: flex;
+  margin-left: 72%;
+  margin-right: auto;
+}
+
+#printText {
+  display: flex;
+  margin-left: 73%;
+  margin-right: auto;
+  color: gray;
+  font-size: smaller;
+}
+
+#egg {
+  text-decoration: line-through;
+}
+
+#sugar {
+  text-decoration: line-through;
+}
+
+.vanName {
+font-weight: bolder;
+font-size: 18pt;
+padding: .5em;
+}
+
+.comment {
+  font-size: 15pt;
+  line-height: 1.2;
+}
+
+#vanPict {
+  float: left;
+  padding: .5em;
+}
+
+.copyR {
+  color: gray;
+  display: block;
+  text-align: center;
+}
+
+#button {
+  background-color: brown;
+  border: none;
+  color: antiquewhite;
+  height: 4em;
+  width: 12em;
+  margin-left: 79%;
+}
+
+#smallLogo {
+  font-family: sans-serif;
+  margin: 5%;
+  text-align: center;
+  /* font-size: 30px; */
+  max-width:100%;
+  position: relative;
+}
+#smallLogo:before {
+  content: "";
+  display: block;
+  width: 320px;
+  height: .5px;
+  background: gray;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+#smallLogo:after {
+  content: "";
+  display: block;
+  width: 320px;
+  height: .5px;
+  background: gray;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
